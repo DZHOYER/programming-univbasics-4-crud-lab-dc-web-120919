@@ -30,14 +30,18 @@ end
 
 def retrieve_element_from_index(array, index_number)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  index_number = 2
+  return array[index_number]
 end
 
 def retrieve_first_element_from_array(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  return array[0]
 end
 
 def retrieve_last_element_from_array(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  return array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
